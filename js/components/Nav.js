@@ -2,8 +2,10 @@ export default class Nav extends React.Component {
   render() {
     return (
       <nav>
-        <a href="mailto:jesseaborden@gmail.com" class="email-link">Contact</a>
-        <ul>
+        <a href="mailto:jesseaborden@gmail.com" class="email-link">
+          Contact
+        </a>
+        {/* <ul>
           <li>
             <a href="https://www.linkedin.com/in/jesse-borden/">
               <svg viewBox="0 0 36.89 33.54"><defs></defs><title>Asset 5</title><g id="Layer_2" data-name="Layer 2"><g id="_06-SINGLE-WHITE" data-name="06-SINGLE-WHITE"><g id="LinkedIn"><rect class="cls-1" x="0.93" y="10.75" width="7.19" height="22.78"></rect><path class="cls-1" d="M27.77,10.54c-4.12,0-6.7,2.23-7.18,3.79V10.75H12.51c.1,1.9,0,22.78,0,22.78h8.08V21.21a5.19,5.19,0,0,1,.18-1.86,4.11,4.11,0,0,1,3.89-2.79c2.8,0,4.08,2.11,4.08,5.19V33.54h8.15V20.87C36.89,13.81,32.88,10.54,27.77,10.54Z"></path><path class="cls-1" d="M4.39,0C1.74,0,0,1.71,0,4A4,4,0,0,0,4.29,7.9h.05c2.7,0,4.39-1.75,4.39-4A4,4,0,0,0,4.39,0Z"></path></g></g></g></svg>
@@ -19,8 +21,8 @@ export default class Nav extends React.Component {
               <svg viewBox="0 0 36.66 36.66"><defs></defs><title>Asset 2</title><g id="Layer_2" data-name="Layer 2"><g id="_06-SINGLE-WHITE" data-name="06-SINGLE-WHITE"><path id="Instagram" class="cls-1" d="M32.3,0H4.36A4.35,4.35,0,0,0,0,4.35v28a4.35,4.35,0,0,0,4.36,4.35H32.3a4.35,4.35,0,0,0,4.36-4.35v-28A4.35,4.35,0,0,0,32.3,0Zm-6,5.73A1.15,1.15,0,0,1,27.5,4.58h3.44a1.15,1.15,0,0,1,1.15,1.15V9.17a1.15,1.15,0,0,1-1.15,1.15H27.5a1.15,1.15,0,0,1-1.15-1.15Zm-8,5.61a7,7,0,1,1-7,7A7,7,0,0,1,18.37,11.34ZM33.23,32.08a1.15,1.15,0,0,1-1.15,1.15H4.58a1.15,1.15,0,0,1-1.15-1.15V14.89H8a7,7,0,0,0-.8,3.48,11.15,11.15,0,0,0,22.31,0,5.87,5.87,0,0,0-.88-3.48h4.58Z"></path></g></g></svg>
             </a>
           </li>
-        </ul>
+        </ul> */}
       </nav>
-    )
+    );
   }
 }
