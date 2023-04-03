@@ -4,8 +4,8 @@ const path = require("path");
 module.exports = {
   entry: "./src/index.js",
   output: {
-    filename: "bundle.js",
-    path: path.resolve(__dirname, "dist"),
+    filename: "app.processed.js",
+    path: path.resolve(__dirname, "js")
   },
   module: {
     rules: [
@@ -13,14 +13,14 @@ module.exports = {
         test: /\.js$/,
         exclude: /node_modules/,
         use: {
-          loader: "babel-loader",
-        },
-      },
-    ],
+          loader: "babel-loader"
+        }
+      }
+    ]
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: "./index.html",
-    }),
-  ],
+      template: "./index.html"
+    })
+  ]
 };
